@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style-register.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S'inscrire chez Phoenix Crafts Studios</title>
+     <style>
+        /* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #71016b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.container img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.username, .email, .password, .confirm-password {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register-button {
+    background-color: #0e00d1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #9500ff;
+}
+
+.login-link {
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #710069;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+     </style>
+</head>
+<body>
+    <div class="container">
+        <img src="icon.png" alt="Logo">
+
+        <form action="" class="register-form">
+            <input type="text" class="username" placeholder="Nom d'utilisateur">
+            <input type="email" class="email" placeholder="Email">
+            <input type="password" class="password" placeholder="Mot de passe">
+            <input type="password" class="confirm-password" placeholder="Confirmer le mot de passe">
+            <button type="button" onclick="window.location.href='index.html'" class="register-button">S'inscrire</button>
+        </form>
+
+        <p class="login-link">
+            Vous avez déjà un compte? <a href="sign-in.html">Se connecter</a>
+        </p>
+    </div>
+</body>
+</html>
