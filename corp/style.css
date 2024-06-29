@@ -20,8 +20,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #333;
-    padding: 10px 20px;
+    background-color: #29282D;
+    height: 50px;
 }
 
 header .left-section, header .right-section {
@@ -50,11 +50,11 @@ header .right-section a::after {
     content: '';
     position: absolute;
     width: 0;
-    height: 2px;
+    height: 50px;
     display: block;
     margin-top: 5px;
     right: 0;
-    background: linear-gradient(to right, rgb(134, 2, 174), rgb(33, 164, 0));
+    background: linear-gradient(to right, rgb(134, 2, 174), rgb(255, 0, 0));
     transition: width 0.4s ease, background-color 0.4s ease;
 }
 
